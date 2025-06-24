@@ -1,0 +1,95 @@
+* {
+    font-family: 'Cascadia Code', sans-serif;
+    color: white;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: linear-gradient(135deg, #000000, #222222);
+}
+
+main {
+    margin-top: 40px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+img {
+    object-fit: contain;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 40%;
+}
+
+nav ul li {
+    transition: all 0.3s ease;
+    transform-origin: center;
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 82);
+}
+
+.photo_and_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.my_photo {
+    object-fit: contain;
+    width: 30%;    
+    height: auto;
+}
+
+.block_with_brief_text {
+    width: 40%;
+    font-size: 15pt;
+}
+
+.my_ns  {
+    font-size: 30pt;
+}
+
+.bottom_text {
+    color: rgb(174, 174, 174);
+}
+
+#visit-counter {
+    position: fixed; 
+    bottom: 10px; 
+    right: 10px; 
+    background: #8c8c8c; 
+    padding: 5px 10px; 
+    border-radius: 5px; 
+    font-size: 14px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
